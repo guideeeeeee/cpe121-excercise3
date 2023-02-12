@@ -1,0 +1,8 @@
+public class ex3_2{
+  public static void main(String[]args){
+    System.out.println("Miles   Kilometers | Kilometers   Miles");
+    for(int i = 1 ;i<=10;i++){
+      System.out.printf("%d      %.3f      | %d           %.3f\n",i,((float)i/0.621),((i+3)*5),(((i+3)*5)*0.621));
+    }
+  }
+}
